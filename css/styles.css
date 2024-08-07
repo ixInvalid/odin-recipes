@@ -15,8 +15,7 @@ body {
 }
 
 .header {
-    max-height: 80px;
-    padding: 28px 2rem;
+    height: 80px;
 }
 
 .header .container {
@@ -24,6 +23,8 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: none;
+    height: 100%;
+    padding: 0 50px;
 }
 
 .logo {
@@ -62,18 +63,18 @@ section {
     gap: 16px;
 }
 
-.title {
+.home-title {
     font-size: 64px;
     font-weight: bold;
     color: #FFF;
 }
 
-.subtitle {
+.home-subtitle {
     font-size: 32px;
     color: #DCDCDC;
 }
 
-button {
+.home-button {
     margin: 84px 0 0 0;
     height: 50px;
     width: 150px;
